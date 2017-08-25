@@ -18,7 +18,7 @@ to.Matrix <- function(filename){
   }
   return(emp1.mat)
 }
-
+# Give your path to the dataset
 train_data <- to.Matrix("C:/Users/Vignesh/Desktop/Backups/All-in-One 15-03-2017/Important Ebook/dorothea_train.csv")
 train_labels <- read.csv("C:/Users/Vignesh/Desktop/Backups/All-in-One 15-03-2017/Important Ebook/dorothea_train.labels.csv", header = F)
 
